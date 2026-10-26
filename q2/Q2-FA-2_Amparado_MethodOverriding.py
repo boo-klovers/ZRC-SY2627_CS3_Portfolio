@@ -50,6 +50,9 @@ philH = PhilHealthPatient("Pedro Reyes", 15000)
 
 patients = [patient, senior, philH]
 
+print("Hospital Billing System")
+print("-----------------------")
+
 for patient in patients:
     print(patient.name)
     print("Original Bill:", f'₱{patient.billAmount:.2f}')
